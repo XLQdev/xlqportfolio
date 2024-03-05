@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: white;
+}
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.col-img {
+  padding-left: 70px;
+}
+#about {
+  margin-top: 180px;
+}
+.tech-stack {
+  margin-top: 100px;
+  padding-bottom: 140px;
+}
+.project {
+  margin-bottom: 100px;
+}
+.project-content {
+  margin-bottom: 160px;
+}
+#message {
+  min-height: 100px;
+  max-height: 150px;
+}
+.form-control-lg,
+.invia {
+  min-width: 300px;
+}
+@media only screen and (max-width: 600px) {
+  .home {
+    flex-direction: column-reverse;
+  }
+  .home > div {
+    width: 100% !important;
+  }
+  .col-img {
+    padding: 0px;
+  }
+}
